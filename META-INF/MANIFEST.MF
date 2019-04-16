@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: GIS bundle
 Bundle-SymbolicName: org.jkiss.bundle.gis;singleton:=true
-Bundle-Version: 1.0.0
-Bundle-ClassPath: lib/cts-1.5.2.jar
- lib/slf4j-api-1.7.25.jar
+Bundle-Version: 1.0.1
+Bundle-ClassPath: lib/cts-1.5.2.jar,
+ lib/slf4j-api-1.7.25.jar,
  lib/com.vividsolutions.jts_1.13.0.jar,
  .
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
