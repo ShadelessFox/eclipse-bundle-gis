@@ -2,18 +2,18 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: GIS bundle
 Bundle-SymbolicName: org.jkiss.bundle.gis;singleton:=true
-Bundle-Version: 1.0.2
+Bundle-Version: 2.0.0
 Bundle-ClassPath: lib/cts-1.5.2.jar,
  lib/slf4j-api-1.7.25.jar,
- lib/com.vividsolutions.jts_1.13.0.jar,
+ lib/jts-core-1.16.1.jar,
  .
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-Vendor: DBeaver Corp
+Bundle-Vendor: DBeaver Corp, Locationtech.org, CTS.org
 Eclipse-BundleShape: dir
-Export-Package: com.vividsolutions.jts,
- com.vividsolutions.jts.geom,
- com.vividsolutions.jts.geom.impl,
- com.vividsolutions.jts.io,
+Export-Package: org.locationtech.jts,
+ org.locationtech.jts.geom,
+ org.locationtech.jts.geom.impl,
+ org.locationtech.jts.io,
  org.cts,
  org.cts.crs,
  org.cts.cs,
