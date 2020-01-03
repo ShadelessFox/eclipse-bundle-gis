@@ -25,3 +25,4 @@ Export-Package: org.locationtech.jts,
  org.cts.units,
  org.cts.util,
  org.cugos.wkg
+Import-Package: org.slf4j
