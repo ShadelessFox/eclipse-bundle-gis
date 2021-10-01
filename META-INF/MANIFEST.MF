@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: GIS bundle
 Bundle-SymbolicName: org.jkiss.bundle.gis;singleton:=true
-Bundle-Version: 2.0.4
+Bundle-Version: 2.0.5
 Bundle-ClassPath: lib/cts-1.5.2.jar,
  lib/jts-core-1.18.0.jar,
  lib/wkg-0.1-SNAPSHOT.jar,
